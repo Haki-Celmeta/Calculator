@@ -1,6 +1,14 @@
 let finalNumber = document.querySelector(".final-number");
 let calculation = document.querySelector(".calculation");
 const calculatorContent = document.querySelector(".calculator-content");
+const clear = document.querySelector(".clear");
+const deleteNumber = document.querySelector(".delete");
+const divide = document.querySelector(".divide");
+const multiply = document.querySelector(".multiply");
+const minus = document.querySelector(".minus");
+const point = document.querySelector(".point");
+const equal = document.querySelector(".equal");
+const plus = document.querySelector(".plus");
 
 const math = {
   add: function (a, b) {
