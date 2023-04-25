@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 440px;
+  width: 360px;
   padding: 40px 0px;
   border: 6px solid black;
   border-radius: 16px;
@@ -24,10 +24,24 @@ body {
 }
 
 .display-screen {
-  width: 400px;
-  height: 120px;
+  width: 320px;
+  height: 110px;
   background-color: rgb(245, 236, 219);
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 0px 6px;
+}
+
+.calculation {
+  font-size: 21px;
+}
+
+.final-number {
+  margin-top: auto;
+  margin-left: auto;
+  font-size: 48px;
 }
 
 .calculator-content {
