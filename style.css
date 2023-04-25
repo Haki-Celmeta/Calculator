@@ -64,8 +64,15 @@ body {
   font-weight: bold;
   border: 1px solid black;
   border-radius: 4px;
+  cursor: pointer;
 }
 
+.minus,
+.point,
+.plus,
+.equal,
+.divide,
+.multiply,
 .clear,
 .delete,
 .number {
@@ -74,10 +81,17 @@ body {
   align-items: center;
 }
 
+.minus,
+.point,
+.plus,
+.equal,
+.divide,
+.multiply,
 .number {
   background-color: rgb(245, 236, 219);
   color: rgb(82, 82, 82);
   font-size: 18px;
   border: 1px solid black;
   border-radius: 4px;
+  cursor: pointer;
 }
